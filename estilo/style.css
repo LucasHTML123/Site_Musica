@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, 'Helvetica', monospace, sans-serif;
+}
+
+body {
+    background-color: #383838;
+}
+
+header {
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    background-color:#181818;
+    box-shadow: 0 3px 5px 0 #00000061;
+}
+
+header > h1 {
+    margin-top: 5px;
+    padding-bottom: 5px;
+    font-size: 2.3em;
+    font-weight: bold;
+    color: white;
+}
+
+header > p {
+    font-size: 1.1em;
+    color: white;
+}
+
+main {
+    max-width: 850px;
+    margin: auto;
+    background-color:#212121;
+    border-radius: 40px 0 15px 0;
+}
+
+section {
+    margin-top: 50px;
+    padding: 15px;
+}
+
+.nome_musica {
+    font-size: 1.3em;
+    font-family: 'Karla', Arial, 'Helvetica', sans-serif;
+    max-width: 150px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    color: antiquewhite;
+}
+
+button {
+    height: 55px;
+    width: 125px;
+    font-family: Arial, 'Helvetica', monospace, sans-serif;
+    font-size: 1.1em;
+    padding: 5px;
+    background-color: #363636;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px #00000059;
+    color: antiquewhite;
+}
+
+button:hover {
+    background-color:#4d4d4d;
+    transition-duration: .2s;
+    cursor: pointer;
+}
+
+button:active {
+    cursor: default;
+    background-color:#363636 ;
+    color: antiquewhite;
+    transition-duration: .1s;
+}
+
+
+div.flex {
+    display: flex;
+    margin-left: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+iframe.video {
+    justify-content: center;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 200px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px #0000005c;
+}
+
+.title {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 5px;
+}
+
